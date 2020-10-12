@@ -1,0 +1,53 @@
+@media (max-width: 1280px) {
+  .row1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .first-section {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .first-section section {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  section p {
+    font-size: 15px;
+  }
+  .second-section {
+    width: 100%;
+  }
+  .first,
+  .second,
+  .third {
+    align-self: baseline;
+  }
+  .review-container {
+    align-self: center;
+    width: 50%;
+    flex-direction: column;
+  }
+  .stars-reviews {
+    margin: 0px 30px 10px 10px;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+  .testimonials {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .testimonials {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 572px) {
+  .review-container {
+    width: 80%;
+  }
+  .testimonials {
+    width: 80%;
+  }
+}

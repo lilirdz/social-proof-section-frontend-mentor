@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Spartan", sans-serif;
+  background: url("./images/bg-pattern-top-desktop.svg") top left,
+    url("./images/bg-pattern-bottom-desktop.svg") bottom right;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 1440px;
+}
+.container {
+  width: 80%;
+  margin: 7rem auto;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.first-section {
+  text-align: left;
+  width: 50%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+section h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: hsl(300, 43%, 22%);
+}
+section p {
+  font-size: 14px;
+  line-height: 22px;
+  color: hsl(303, 10%, 53%);
+}
+
+.second-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.review-container {
+  display: flex;
+  width: 70%;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  align-items: center;
+}
+.second-section :last-child {
+  margin-bottom: 0;
+}
+.stars-reviews {
+  display: flex;
+  margin: 0px 30px 0px 10px;
+}
+.reviews {
+  font-size: 75%;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+}
+.first {
+  align-self: flex-start;
+}
+.second {
+  align-self: center;
+}
+.third {
+  align-self: flex-end;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  min-height: 260px;
+}
+.testimonials {
+  width: 30%;
+  background-color: hsl(300, 43%, 22%);
+  padding: 1%;
+  border-radius: 10px;
+  max-height: 210px;
+  color: white;
+}
+.testimonial {
+  margin: 10%;
+  font-size: 12px;
+}
+.testimonial-buyer {
+  display: flex;
+  margin-bottom: 6%;
+}
+.buyer-img img {
+  height: 50px;
+  border-radius: 999px;
+}
+.buyer-info {
+  margin-left: 10%;
+}
+.buyer-info .name {
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+.buyer-info .status {
+  color: hsl(333, 80%, 67%);
+  letter-spacing: 1px;
+  line-height: 12px;
+}
+.comment {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: justify;
+}
